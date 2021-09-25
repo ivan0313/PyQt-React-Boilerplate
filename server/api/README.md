@@ -13,11 +13,10 @@
     ```py
     import json
 
-    from PyQt5.QtCore import pyqtSlot
-    from PyQt5.QtWidgets import QWidget
+    from PyQt5.QtCore import pyqtSlot, QObject
 
 
-    class Foo(QWidget):
+    class Foo(QObject):
         def __init__(self, parent=None):
             super().__init__(parent)
 
