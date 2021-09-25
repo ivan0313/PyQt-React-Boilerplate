@@ -1,0 +1,9 @@
+.idea
+sample_code/data/**/
+sample_code/model
+.env
+venv
+
+/node_modules
+build
+**/__pycache__
